@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+       
+        .container{
+            height:80vh;
+            width:100vw;
+            border:2px solid purple;           
+           
+        }
+        .box{
+            height:80px;
+            width:80px;
+            background-color: aliceblue;
+            border:2px solid black;
+            transform: rotate(40deg);
+            transform-origin: 0% 0%;
+           /* transform: scaleX(1.5);*/  /* it make it big*/
+          /* transform: skewY(50deg); */ /* it make it stretch* and this property did not applied in z axis*/
+          /* transform: translateY(50%); */
+          /* transform: translateX(50%) skewx(40deg) translateY(20%); */
+            
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"><div class="box">Box</div></div>
+    
+</body>
+</html>

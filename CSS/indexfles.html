@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FlexBox</title>
+    <style>
+        .container{
+             
+                    border:2px solid black;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    align-content: center;  /*works when flex item starts overflow or wrap */
+                    flex-direction: row-reverse;
+                    flex-wrap: wrap;
+                    gap:2px;
+        }
+        .item{
+               height:50px;
+               width:50px;
+               border:2px solid white;
+               background-color: blue;
+               align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    
+</body>
+</html>

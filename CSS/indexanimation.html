@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Animation</title>
+    <style>
+        .container{
+            height:50vh;
+            width:50vw;
+            background-color: antiquewhite;
+        }
+        .box1{
+            height:5vh;
+            width:5vw;
+            background-color: blue;
+            /* animation-name: newanimation;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+            animation-timing-function: ease-out;
+            animation-delay: 1s;
+            animation-direction: alternate;
+            animation-play-state: paused; */
+            animation: newanimation 3s ease-in-out 1s 3 alternate,
+                    animation2 3s ease 1s 3 alternate;
+
+        }
+
+
+        @keyframes newanimation{
+            from{
+
+            }
+            to{
+                transform: translateX(5000px);
+            }
+        }
+
+        @keyframes animation2{
+            0%{
+                transform: rotate(100deg);
+            }
+            20%{
+                transform: rotate(200deg);
+            }
+            50%{
+                transform: rotate(250deg);
+            }
+            80%{
+                transform: rotate(300deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container"><div class="box1">Box</div></div>
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* create a simple div with an id "box" . Add some text content inside the div Set its background color to blue. */
+#box {
+    background-color: blue;
+    color: white;
+    text-align: start;
+       
+}
+
+.heading {
+    color:red;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+button{
+    background-color:green;
+}
+
+#one {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#outer{
+    font-size: 25px;
+
+}
+#inner{
+    font-size: 10px;
+}
+
+.hm{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    border-radius:50%;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    
+}

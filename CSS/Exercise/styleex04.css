@@ -1,0 +1,37 @@
+:root{
+    --color:blue;
+    --seccolor:rgb(188, 188, 239);
+    --third-color:rgba(173, 173, 252, 0.844);
+
+}
+.navbar{
+    height: 80vh;
+    width: 100vw;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: center;  */
+    background-color: var(--color);
+    color: var(--seccolor);
+    font-size: larger;
+      }
+.navbar li:hover{
+    color:rgb(211, 152, 152);
+    font-weight: bolder;
+
+}  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--third-color);
+}
+
+
+li{
+    margin:25px 25px 25px 2px;
+}

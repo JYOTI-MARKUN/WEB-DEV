@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+    padding-top: 10px;  
+    color:white;
+
+}
+
+#logo{
+font-weight: 25px;
+color: #F08804;
+}
+
+button{
+    background-color: #F08804;
+
+}
+
+a{
+    margin-right: 200px;
+}
+
+#content{
+    height: 600px;
+}
+
+#one{
+    border: 2px solid black;
+    height: 100px;
+    width:100px;
+    background-color: rgb(255, 0,0,0.5);
+    display: inline-block;
+}
+
+#two{
+    border: 2px solid black;
+    height: 100px;
+    width:100px;
+    background-color: rgb(0, 255,0,0.5);
+    display: inline-block;
+
+}
+
+#three{
+    border: 2px solid black;
+    height: 100px;
+    width:100px;
+    background-color: rgb(0, 0,255,0.5);
+    display: inline-block;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

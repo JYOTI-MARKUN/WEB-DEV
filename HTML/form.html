@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <div>
+        <form action="/action.php">
+            <h2>Student Informataion Form</h2>
+            <p>Name</p>
+             <input type="text" placeholder="Enter Your Name Here"> <br><br><p>Enter Your Class</p>
+            <label for="001"> <input type="radio" value="XI" name="Class" id="001"> XI</label>
+                 <label for="002"><input type="radio" value="XII" name="Class" id="002"> XII</label>
+                 <br><br><p>Your Subjects</p>
+                 <label for="003"><input type="checkbox" value="Maths" name="subject" id="003">Maths</label>
+                 <label for="004"><input type="checkbox" name="subject" value="Physics" id="004">Physics</label>
+                 <label for="005"><input type="checkbox" name="subject" value="Chemistry" id="005">Chemistry</label>
+                 <label for="006"><input type="checkbox"name="subject" value="Computer Science"id="006">Computer Science</label>
+                 <br><br><p>Enter you City</p>
+                 <select name="city" id="city">
+                    <option value=""></option><option value="Delhii">Delhi</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="dehradun">Dehradun</option>            
+            </select>
+            <br><br><p>Enter Your Valuable feedback</p>
+            <label for="001"><textarea name="feedback" id="001" cols="30" rows="10"placeholder="Please enter your feedback"></textarea></label>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+  <video src="/video.mp4" controls width="250" ></video>
+
+    
+</body>
+</html>

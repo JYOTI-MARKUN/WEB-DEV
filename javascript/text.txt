@@ -1,0 +1,49 @@
+# variable in js: variable is container for data
+null(we know what is inside null but it is null i.e. empty)  and undefined (we did not know what is inside undefined) is a special value in javascript
+# javascript is dynamically typed language that means we can store any type of value and we do not need to tell the type of variable to javascript java's interpretre do that for us(we do ot need to tell the datatype)
+
+# RULES FOR WRITING THE VARIABLE NAME IN JAVASCRIPT
+
+# variable name are case sensative
+# only letter,digits underscore and $ is allowed (not even space is allowed)
+# only leter ,$  and underscore should be the first 1st  character
+# reserved words are not allowed
+
+# CASES IN PROGRAMMING (A CONVENSION)
+fullname
+fullName    Camel case   (use this convension)
+full_name   snake case
+FullName    pascal case
+full-name   cabab case
+
+
+# let, const & var  keyword
+var:  variablecan be re-declare & updated.A global scope varibale
+
+after 2015 ES6 come into existance in javascript which defined let and const
+let: varible can not be re-declare but can be updated.A block scope varibale
+const: varible cannot be redeclare and update. a block scope variable
+
+
+# DATA TYPES IN JAVASCRIPT :1.PRIMITIVE DATATYPE (FIXED) 2. NON PRIMITIVES DATA TYPE 
+1. PRIMITIVE datatype
+Number, String, Boolean, Undefined, Null  null has object datatype in javascript (null means absence of an object), BigInt, Symbol
+2. NON PRIMITIVE datatype
+Objects(Arrays,Function)  object is the collection of  values (datatype) it ahs key values pair
+ to access a key from an object we can use two methods obj.keyname opr obj[keyname]
+
+ # to change the value of a key inside a object we can do that not accessing the key name through its object name
+
+  # OPEARTORS IN JAVASCRIPT
+  # ARITHMETIC OPERATOR : +, -, *, /, %, **, A++, A--  these two are unary opeartor that works on one value only
+  # UNARY OPERATOR : A++, A--
+  pre and post increment and decrement
+
+  # ASSIGNMENT OPERATOR: =, +=, -=, *=, /=,**=,%=
+
+  # COMPARISON OPERATORS : == , != , ===, !==, >, <, >=, <=
+
+  # LOGICAL OPERATOR: &&, ||, !
+
+  # CONDITIONAL STATEMENT IN JAVASCRIPT
+  this is used to implement some condition in the code

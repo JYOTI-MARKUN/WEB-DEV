@@ -1,0 +1,33 @@
+# to copy down a piece of code           alt+shift+downkey
+# To Change multiple thing at a time     alt+click
+# wordwrap                               alt+z
+
+
+# tags / attribute (tags have attribute like html tag have attibute lang eng)
+
+# paragraph tags      <p></p>
+# anker tags           <a href=""></a>   # relative and absolute link relative link if you are linking to google.com or some others than its called absolte link if you are linking to your own file than is called relative link 
+# # target atribute to open it in new tab
+# you can also give image as an link to anker tag
+# heading tag         from h1 to h6
+# break tag            <br>
+# image tag
+# underline,bold,italic
+# hr tag
+# small tag
+# big tag
+# subscript
+# superscript
+# pre tag same as p tag only different it will count blank spaces and next line also
+
+## Page Layout Technique
+Semantic Tag (clear from name)   like Header, Foote,r Main tags, section tag,artical tag,aside tag (SEO will not detact this)
+
+
+  Non Semantic Tag(not clear from name)  like div span tags
+
+# div : an important HTML tag to conatin other tags its a block element that takes the full space by default its height is zero
+# span : an inline element that takes ony the required space
+# list tag ul and only
+# tables in html
+tr td th caption thead tbody

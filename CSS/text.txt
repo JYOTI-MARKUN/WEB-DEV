@@ -1,0 +1,147 @@
+# selector {
+    property:value
+}
+
+# class selector
+.classbame{
+
+}
+
+# id selector
+#idname{
+
+}
+
+# universal selector
+*{
+
+}
+
+# element selector
+h1/div/p{
+
+}
+
+# child selector (should be a direct child ) 
+suppose we have p tag inside a div than child selector can be used as 
+div > p {
+
+}
+
+# Descendent Selector (will apply value of property even if its is ancestor)
+
+div p{
+
+}
+
+
+# three styling format with high to low order
+inline style using style property in element
+style tag
+css style sheet
+
+but remember to add styling by css style sheet only and in head tag we give most priority to the tag which is mentioned in last
+
+# TEXT property
+text-align : left/start,right/end,centre
+text-decoration : underline/linethrough/overline/none
+font-weight : normal/bold/bolder/lighter
+font-weight have values from 100-900 and bold have the value of 400
+
+# FONT family
+font-family:sarif,san-sarif,arial,times(default)
+
+# UNITS IN CSS
+Absolute and Relative Units 
+Absolute unit : cm , m ,inch ,pixels (px)
+96px = 1inch =2.54cm
+
+#LINE HEIGHT
+# TEXT TRANSFORM : UPPER/ LOWER / CAPITALIZE / NONE
+
+# HEIGHT
+# width
+# margin
+# padding
+
+
+# DISPLAY SEETING
+#INLINE -NO PADDING(from top),NO MARGIN(from top),NO HEIGHT AND width
+#BLOCK element TAKE THE FULL width
+#INLINE BLOCK SIMILAR AS INLINE BUT CAN ADD MARGIN PADIDNG HEIGHT AND width
+# NONE TO REMOVE ELEMENT FROM THE SITE ALSO NO SPACE IS RESERVED FOR THIS
+# VISIBILTY NONE REMOVES ELEMENT BUT REVERSE ITS PLACE 
+# RGBA ( A IS OPASITY WHOSE VALUES IS IN BETWEEN 0 TO 1)
+
+
+# relative Units
+%, em, rem, vh, vw,vmin,vmax(in case of phone width is vmin and height is vmax but opposite is true in cae of window)
+# POSITION
+STATIC : DEFALT POSTION
+Relative : RELATIVE TO ITSELF
+Absolute : RELATIVE TO ITS CLOSEST PARENT
+FIXED :RELATIVE TO BROWSER
+STICKY :POSITION BASED ON USERS SCROLL POSITION
+Z INDEX : ELEMENT THAT HAVE GRETER VALUE OF Z INDEX WILL GET PREFERENCE
+
+# BACKGROUND IMAGE : url 
+BACKGROUND SIZE : COVER/AUTO/CONTAIN (BY DEFAULT ITS AUTO BUT WE ALWAYS USE COVER)
+
+
+# flex have acontainer that contains flex item that remains inside the flex even if they have to change their hight and width for this  (but they change themselve till than when their own font size allows them to do so)
+
+
+FLEX HAS TWO AXIS MAIN AXIS AND CROSS AXIS  (ROW DIRECTION CASE MAIN AXIS IS IN HORIZONTAL DIRECTION AND CROSS IN VERTICAL DIRECTION)
+ROW MAIN AXIS LEFT TO right
+ROW REVERSE RIGHT TO LEFT
+COLUMN MAIN AXIS TOP TO BOTTOM
+COLUMN REVERSE BOTTOM TO TOP
+
+
+# NOTE : MARGIN IS NOT SELECTED WHILE SETTING THE WIDTH OF A CONTENT OR SELECTOR OR TAG OR ELEMENT
+# IF SET A PROPERTY BOX:SIZING: BORDER-BOX THAN THE TOTAL HEIGHT WE HAVE GIVE IS COMBINATION OF CONTENT + PADDING + BORDER
+
+
+# FLEX DURECTION : ROW ,ROW REVERSE , COLUMN ,COLUMN REVERSE
+
+# FLEX PROPERTY FOR FLEX CONTAINER
+
+# to make flex item to centre use justify contains to make centre along main axis and align item centre along cross axis
+
+
+
+
+# SPECIFICITY # CASCADE IN CSS
+Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+Inline Style can be replace by using important keyword   (like this !important p {
+  color: red !important;
+})
+
+Specificity Calculation
+To calculate specificity, assign a value to each part of the selector:
+
+Universal Selector: 0
+Element selectors and pseudo-elements: 1
+Class selectors, attribute selectors, and pseudo-classes: 10
+ID selectors: 100
+Inline styles: 1000
+Then, add up the values of all the parts in the selector.
+
+Here is an example 
+
+
+# text shadow  x offset y offset blur spread color
+# box shadow same as text shadow
+# outline same as border only diffence is border is inside and outline is outside and it is not the part of box model and we can change the outline position directly using outline offset property while we can not directly change the border
+
+
+
+# LIST STYLE in css bydefault list is made up of marker and list style and this marker is  placed outside and any style we add in list content is not apply in lit marker so to include this within list style we can use list-style-position :inside
+ we can use emoji urls pictires in list style 
+
+
+ # CSS OVERFLOW
+ if in case your text is overflowing outside the container then we can use overflow property so that we get a scroll bar
+ you cam use overflow x and overflow y
+
+ white space in overflow can be use as a property to tell the browser that do not fall our text
