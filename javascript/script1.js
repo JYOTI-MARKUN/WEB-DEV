@@ -98,4 +98,31 @@ console.log("cond1 && cond2 ", cond1 || cond2 );
 console.log("cond1 = ",!(cond1));
 
 
+// alert("hellow");
 
+// let name = prompt("hellow");
+// console.log(name);
+
+
+// let num = prompt("Enter a number");
+// console.log(num);
+// if (num % 5 === 0){
+//     console.log(num,"number is a multiple  of  5");
+// }
+// else {
+//     console.log(num,"Number is not a multuple of 5");}
+
+
+let number = prompt("Enter your grade");
+
+if (number >= 90  &&  number <=100){
+    console.log("you got grade A");
+} else if (number >= 70  &&  number <=89){
+    console.log("You got grade B");
+}else if (number >= 60  &&  number <=69){
+    console.log("You got grade c");
+} else if (number >= 50  &&  number <=59){
+    console.log("You got grade d");
+} else {
+    console.log("you are failed")
+}
