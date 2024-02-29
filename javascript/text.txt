@@ -47,3 +47,24 @@ Objects(Arrays,Function)  object is the collection of  values (datatype) it ahs 
 
   # CONDITIONAL STATEMENT IN JAVASCRIPT
   this is used to implement some condition in the code
+
+
+# Strings of js is immutable
+  # ARRYA IN JS : Array is js is a special typeof object which store values in a linera fashion, when we have values of same type we ca create an array in js NOTE : Type of array is an object it self as we can consider array as the key value pair where key can be consider as index 
+  array are mutuable
+
+  # some array method changes the array and some create a new array
+  aome important methods are push, pop, unshit, shift, splice, slice, concat, toString 
+
+
+  # FUNCTIONS IN JS : A block of code that perform a specific task. fan be invoked whenever needed
+  like in console.log() we have log function [1,2,3].push(4) in arry we have push function and they are called using () parenthysis
+
+  # parameter and argument both are same thing but when we pass value in function definition than it is called parameter and when given in the time of function invoking its called argument
+  NOTE : FUNCTION IN JS IS VERY SPECIAL AS THEY CAN PASS AS VARIABLE AS WELL AS AN argument TO ANOTHER FUNCTION THESE TYPE OF FUNCTION IS CALLED CALL BACK FUNCTION  (USED IN FOR EACH LOOP) 
+ 
+  ARROW FUNCTION
+
+  ## for each loop in Array  
+  # for each used with array only they are higher order funcyion or method
+  higher order function : these are those that takes either a function as the parameter or return a function as their output

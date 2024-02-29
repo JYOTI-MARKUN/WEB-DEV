@@ -64,10 +64,17 @@
 
 
 // create a game where you start with a random game number . Ask the user to keep guessing the game number untill the user enter the corret number
-// let original_number = 55;
-// let guess_number = prompt("Guess the number");
-// while (original_number != guess_number){
-//     guess_number = prompt("Guess Again");
+let original_number = 55;
+let guess_number = prompt("Guess the number");
+while (original_number != guess_number){
+       if (guess_number > original_number){
+        guess_number = prompt("The number you enter is greater than the actual one please guess a smaller one ");
+       
+       } else if (guess_number < original_number){
+        guess_number = prompt("The number you enter is less than the actual one please guess a bigger one ");
+       
+       }
+   
      
-// }   
-// console.log("Yeah! you guess the correct number");   
+}   
+console.log("Yeah! you guess the correct number");   

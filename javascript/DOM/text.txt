@@ -1,0 +1,9 @@
+dom
+window object : window object is browser's object (not javascript's) & is automatically created by browser.
+It is a global object with lots of properties & method
+
+we can access all the html code inside js by document object, all the html code converted to an object called document through which we can access html uisng js
+
+
+console.log used to print an object as an element
+console.dir used to print the method and property of special object like document (a subset of window )
