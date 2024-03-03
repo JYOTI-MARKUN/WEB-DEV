@@ -7,3 +7,49 @@ we can access all the html code inside js by document object, all the html code 
 
 console.log used to print an object as an element
 console.dir used to print the method and property of special object like document (a subset of window )
+
+
+
+IMPORTANT NOTE : WHEN WE USED SCRIPT TAG BEFOR BODY TAG IN HTML THAN DOM IS APPLICABLE SO USE ALWAYS USE SCRIPT TAG AT THE END OF THE BODY
+
+# DOM MANIPULATION (TO ACCESS ELEMENT)
+SELECT WITH ID
+document.getElementBYId("myId")  (when we search for an id that does not exist that it will give null)
+
+SELECT WITH CLASS
+document.getElementBYClassName("myclass")  (when we search for a class that does not exist than we get an empty html object)
+
+
+# SELECTING WITH TAG
+document.getElementbyTagName("p")
+
+# QUERY SELECTOR
+document.querySelector("id/class/element")  // to SELECT first element if you wan to SELECT all element use 
+document.querySelectorAll("id/class/tag")  use .for id and # for class 
+
+#### properties  (get and set)
+tagName : returns the tag name of the node
+innerText : returns the text content of the element and all its children
+innerHTML : returns the plain text or HTML contents in the elements
+textContent : return textual content even for hidden elements
+
+
+# DOM HAS THREE TYPE OF NODES.
+TEXT NODE 
+COMMENT NODE
+ELEMENT NODE
+
+#ATTRIBUTES
+.getAttribute(attr) // to get the attribute value
+.setAttribute(node,attr)
+
+# INSERT ELEMENTS
+let el = document.createElement("div")
+node.append(el)
+node.prepend(el)
+node.before(el)
+node.after(el)
+
+# DELETE ELEMENT
+node.remove()
+

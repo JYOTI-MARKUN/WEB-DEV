@@ -1,0 +1,29 @@
+# EVENTS IN JS
+The change in the state of an object is known as Event
+
+
+some events are keyboard key press
+mouse click
+onclick
+widow size minimize and maximize
+
+
+types of event handling
+inline event handling
+
+# EVENT HANDLING IN JS
+access event first than make a fucntion for it  
+
+in between inline event handling and js event handling js gets preference 
+and in js events after will get preference
+
+# EVENT OBJECT
+its the special type of object that has all the information about the event
+it is generally denoted by e or evt
+events has all the acces to the method and function of event object
+
+# EVENT LISTNERS
+node.addEventListner(event,callback)  // callback is a handler
+node.removeEventListner(event,callback)
+
+note : to remove an eventlistner we need to store them in same memroy loaction this can be done by giving them same variable name

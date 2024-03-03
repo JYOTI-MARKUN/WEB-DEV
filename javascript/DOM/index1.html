@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height:100px;
+            width: 100px;
+            background-color: plum;
+            font-weight: 900;
+            border:2px solid purple;
+        }
+     
+    </style>
+</head>
+<body>
+    <div>I am a box</div>
+    <script> let newbutton = document.createElement("button");
+              newbutton.innerText = "Click Me!";
+              document.querySelector("body").before(newbutton)
+              newbutton.style.backgroundColor = "red";
+              newbutton.style.color = "white";
+    </script>
+</body>
+</html>
